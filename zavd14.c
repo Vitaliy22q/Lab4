@@ -56,7 +56,7 @@ int main()
 	scanf("%d", &n);
 	
 	for(i = (SIZE - 1), mas[SIZE + 1] = 0; i >= 0; i--) {
-		if(n >= mas[i])
+		if(n >= mas[i]) 
 			mas[i + 1] = mas[i];
 		else {
 			mas[i + 1] = n;
