@@ -22,7 +22,7 @@ void lich(int *mas, int n)
 		else if(mas[i] < 0)
 			vid = vid + 1;	
 		
-	printf("\n\tdodatnih: %d", dod);
+	printf("\n\tdodatnih: %d", dod); 
 	printf("\n\tvid`emnih: %d", vid);	
 }
 
